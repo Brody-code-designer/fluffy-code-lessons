@@ -22,3 +22,6 @@
 
 ## Branching 
 ![git branching!](./git-branching.jpg)
+
+## Origin
+[Origin Explanation](https://stackoverflow.com/questions/9529497/what-is-origin-in-git)
