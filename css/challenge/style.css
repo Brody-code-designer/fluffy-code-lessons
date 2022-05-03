@@ -5,51 +5,70 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
-html, body {
-	margin: 0;
-	box-sizing: border-box;
+
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .container {
-	margin: 0 auto;
-	padding: 0 2rem;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .clearfix {
-	clear: both;
+    clear: both;
 }
 
+
 /* create a responsive container */
+
 @media only screen and (min-width: 1200px) {
-	.container { width: 1170px; }
+    .container {
+        width: 1170px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-	.container { width: 970px; }
+    .container {
+        width: 970px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.container { width: 750px; }
+    .container {
+        width: 750px;
+    }
 }
+
 
 /*****************************************************
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 ******************************************************/
 
+
 /*corrects IE min-height bug*/
-html { display: flex;}
-body { width: 100%;}
+
+html {
+    display: flex;
+}
+
+body {
+    width: 100%;
+}
 
 .sfooter {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .sfooter-content {
-	flex: 1 0 auto;
+    flex: 1 0 auto;
 }
+
 
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
@@ -62,3 +81,28 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+header {
+    color: rgb(125, 235, 52);
+    background-color: black;
+    height: 3rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-left: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+em {
+    font-size: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container>img {
+    max-width: 50%;
+    max-height: auto;
+    margin-left: 20vw;
+    margin-top: 3vw;
+}
