@@ -126,7 +126,7 @@
                 }
                 
                 img[src="images/stunning.jpg"] {
-                    max-height: 30vh;
+                    max-height: 35vh;
                     max-width: auto;
                     margin-left: 4vw;
                     margin-right: 3vw;
@@ -142,4 +142,29 @@
                 
                 span {
                     font-style: italic;
+                }
+                
+                .container>h2:first-child {
+                    text-align: right;
+                }
+                
+                table {
+                    color: greenyellow;
+                    background-color: black;
+                    border-collapse: collapse;
+                }
+                
+                tr {
+                    border: solid white;
+                    border-width: 1px 0;
+                }
+                
+                table td {
+                    border-left: 1px solid white;
+                    padding-right: 100px;
+                }
+                
+                table th {
+                    border-left: 1px solid white;
+                    text-align: left;
                 }
