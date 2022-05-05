@@ -1,60 +1,67 @@
-                /*****************************************************
+/*****************************************************
 * CSS Mockup Activity - Custom CSS Stylesheet
 * @author rlewis37
 *
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
-                
-                html,
-                body {
-                    margin: 0;
-                    box-sizing: border-box;
-                    font-family: Arial, Helvetica, sans-serif;
-                }
-                
-                .container {
+
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* .container {
                     margin: 0 auto;
                     padding: 0 2rem;
-                }
-                
-                .clearfix {
-                    clear: both;
-                }
-                /* create a responsive container */
-                
-                @media only screen and (min-width: 1200px) {
-                    .container {
-                        width: 1170px;
-                    }
-                }
-                
-                @media only screen and (min-width: 992px) and (max-width: 1199px) {
-                    .container {
-                        width: 970px;
-                    }
-                }
-                
-                @media only screen and (min-width: 768px) and (max-width: 991px) {
-                    .container {
-                        width: 750px;
-                    }
-                }
-                /*****************************************************
+                } */
+
+.clearfix {
+    clear: both;
+}
+
+
+/* create a responsive container */
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+/*****************************************************
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 ******************************************************/
-                /*corrects IE min-height bug*/
-                
-                html {
+
+
+/*corrects IE min-height bug*/
+
+
+/*html {
                     display: flex;
                 }
                 
                 body {
                     width: 100%;
                 }
-                
-                .sfooter {
+                 .sfooter {
                     display: flex;
                     flex-direction: column;
                     min-height: 100vh;
@@ -62,8 +69,10 @@
                 
                 .sfooter-content {
                     flex: 1 0 auto;
-                }
-                /*****************************************************
+                } */
+
+
+/*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 *
 * HINT: You might want to be conversant with the following:
@@ -73,98 +82,144 @@
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-                
-                header {
-                    color: rgb(125, 235, 52);
-                    background-color: black;
-                    height: 3rem;
-                }
-                
-                h1 {
-                    font-size: 1.25rem;
-                    display: inline-block;
-                    margin-right: 1rem;
-                    margin-left: 4rem;
-                    font-family: Arial, Helvetica, sans-serif;
-                }
-                
-                em {
-                    font-size: 0.5rem;
-                    font-family: Arial, Helvetica, sans-serif;
-                }
-                
-                .container>img {
-                    max-width: 50%;
-                    max-height: auto;
-                    margin-left: 20vw;
-                    margin-top: 3vh;
-                }
-                
-                .instructions-wrapper {
-                    border: 3px solid black;
-                    margin: 4vh;
-                }
-                
-                .instructions-content {
-                    max-width: 60ch;
-                    margin: 3vh;
-                    font-size: 3vh;
-                    display: inline-block;
-                }
-                
-                img[src="images/captain-janeway.png"] {
-                    max-height: 100px;
-                    max-width: auto;
-                    margin-left: 12vw;
-                }
-                
-                .about-me {
-                    background-color: rgb(66, 66, 212);
-                    font-size: 3vh;
-                    color: white;
-                    height: 55vh;
-                }
-                
-                img[src="images/stunning.jpg"] {
-                    max-height: 35vh;
-                    max-width: auto;
-                    margin-left: 4vw;
-                    margin-right: 3vw;
-                    margin-top: 6vw;
-                    float: left;
-                    border: 2px solid white;
-                }
-                
-                p {
-                    max-width: 70ch;
-                    display: inline-block;
-                }
-                
-                span {
-                    font-style: italic;
-                }
-                
-                .container>h2:first-child {
-                    text-align: right;
-                }
-                
-                table {
-                    color: greenyellow;
-                    background-color: black;
-                    border-collapse: collapse;
-                }
-                
-                tr {
-                    border: solid white;
-                    border-width: 1px 0;
-                }
-                
-                table td {
-                    border-left: 1px solid white;
-                    padding-right: 100px;
-                }
-                
-                table th {
-                    border-left: 1px solid white;
-                    text-align: left;
-                }
+
+header {
+    color: #00ff01;
+    background-color: black;
+    height: 3rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-left: 4rem;
+}
+
+em {
+    font-size: 0.5rem;
+}
+
+img[src="images/welcome.gif"] {
+    max-width: 50%;
+    max-height: auto;
+    margin-left: 20vw;
+    margin-top: 3vh;
+}
+
+.instructions-wrapper {
+    border: 3px solid black;
+    margin: 4vh;
+}
+
+.instructions-content {
+    max-width: 60ch;
+    margin: 3vh;
+    font-size: 3vh;
+    display: inline-block;
+}
+
+img[src="images/captain-janeway.png"] {
+    max-height: 7rem;
+    max-width: auto;
+    margin-left: 12vw;
+}
+
+.about-me {
+    background-color: #0000ff;
+    font-size: 3vh;
+    color: white;
+    height: 55vh;
+}
+
+img[src="images/stunning.jpg"] {
+    max-height: 35vh;
+    max-width: auto;
+    margin-left: 4vw;
+    margin-right: 3vw;
+    margin-top: 6vw;
+    float: left;
+    border: 2px solid white;
+}
+
+p {
+    max-width: 70ch;
+    display: inline-block;
+}
+
+span {
+    font-style: italic;
+    color: #e1e751;
+}
+
+.container>h2:first-child {
+    text-align: right;
+    margin-right: 5vw;
+}
+
+table {
+    color: #06f902;
+    background-color: #333333;
+    border-collapse: collapse;
+    margin-left: 5vw;
+}
+
+tr {
+    border: solid white;
+    border-width: 1px 0;
+}
+
+td {
+    border-left: 1px solid white;
+    padding-right: 100px;
+}
+
+th {
+    border-left: 1px solid white;
+    text-align: left;
+}
+
+.container>.form-wrapper {
+    background-color: #2b762a;
+    border-top: 25px solid #333333;
+    border-bottom: 25px solid #333333;
+    border-left: 100px solid #333333;
+    border-right: 100px solid #333333;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    padding: 20px;
+    color: rgb(122, 198, 108);
+}
+
+input,
+label {
+    display: block;
+    padding-top: 10px;
+}
+
+
+/* .form-wrapper {
+    background-color: #006400;
+                     width: 80%; 
+    color: #166d14;
+    width: 150%;
+    border: 5px dashed blue;
+    margin-left: 200px;
+} */
+
+button {
+    background-color: #06f902;
+}
+
+footer {
+    margin-top: 0px;
+    background-color: black;
+    color: #e7ecec;
+    font-size: .5rem;
+    text-align: center;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
