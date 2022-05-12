@@ -1,5 +1,10 @@
 # Docker Commands
 
+## View Containers
+```
+docker ps
+```
+
 ## Build Container
 ```
 docker-compose up --build
